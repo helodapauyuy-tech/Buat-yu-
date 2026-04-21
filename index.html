@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            background-color: #fce4ec; /* Warna background pink muda */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Ini bagian yang mirip di foto lo */
+        .Happy__Birthday {
+            font-family: 'Cursive', sans-serif; /* Ganti ke font estetik */
+            color: #c2185b;
+            font-size: 3.5em;
+            font-weight: 700;
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+            text-align: center;
+        }
+
+        .Happy__Birthday::after {
+            content: " Happy Birthday, my Love!"; /* Teks ucapannya */
+        }
+
+        .card {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 2px solid #f8bbd0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Elemen ini yang bakal diisi sama CSS di atas -->
+        <div class="Happy__Birthday"></div>
+        <p style="text-align: center; color: #888;">&lt;click /&gt; to open heart</p>
+    </div>
+
+</body>
+</html>
